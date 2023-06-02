@@ -6,7 +6,7 @@ import Info from "./components/Fragments/InfoPromo";
 import SocialMedia from "./components/Fragments/SocialMedia";
 import Hero from "./components/Fragments/Hero";
 import InfoGames from "./components/Fragments/InfoGames";
-import FlashSale from "./components/Fragments/FlashSale";
+// import FlashSale from "./components/Fragments/FlashSale";
 import TopGames from "./components/Fragments/TopGames";
 import CategoryGames from "./components/Fragments/CategoryGames";
 import Benefit from "./components/Fragments/Benefit";
@@ -26,10 +26,9 @@ const App = () => {
         {/* Main Start */}
         <main className="mt-5 md:mt-10">
           <Hero />
-
-          {/* Belum pecah element */}
           <InfoGames />
-          <FlashSale />
+          {/* Belum pecah element */}
+          {/* <FlashSale /> */}
           <TopGames />
           <CategoryGames />
           <Benefit />
