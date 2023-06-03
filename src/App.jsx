@@ -29,12 +29,12 @@ const App = () => {
           <InfoGames />
           <TopGames />
           <CategoryGames />
-          {/* Belum pecah element */}
-          {/* <FlashSale /> */}
-          
           <Benefit />
           <UpdateTournament />
           <BlogGames />
+          {/* Belum pecah element */}
+          {/* <FlashSale /> */}
+          
           <Payment />
         </main>
         {/* MAIN End */}
