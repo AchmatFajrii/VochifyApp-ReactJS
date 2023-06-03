@@ -27,14 +27,12 @@ const App = () => {
         <main className="mt-5 md:mt-10">
           <Hero />
           <InfoGames />
+          {/* <FlashSale /> */}
           <TopGames />
           <CategoryGames />
           <Benefit />
           <UpdateTournament />
           <BlogGames />
-          {/* Belum pecah element */}
-          {/* <FlashSale /> */}
-          
           <Payment />
         </main>
         {/* MAIN End */}
