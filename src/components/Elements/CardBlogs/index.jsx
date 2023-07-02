@@ -1,39 +1,7 @@
-import Layers from "../../../assets/img/Layers-of-Fears-Blog-post_1400x630-300x135.webp";
-import RedfallB from "../../../assets/img/Redfall-Blog-post_1400x630-300x135.webp";
-import Spiderman from "../../../assets/img/Spider-Man-2-Blog-post_1400x630-300x135.jpg";
-import MinecraftL from "../../../assets/img/Minecraft-Legends-Blog-post_1400x630-300x135.jpg";
+import dataBlogs from "../../../assets/user/dataBlogs.json";
 
 const CardBlogs = () => {
-  const dataCardBlogs = [
-    {
-      image: Layers,
-      title: "Layer of Fear: The Horror series returns",
-      description:
-        "Layers of Fear, originally titled Layers of Fears, wraps up the horror series created by Bloober Team, as it includes the previous installments as well as entirely new stories.",
-      date: "April 8, 2023",
-    },
-    {
-      image: RedfallB,
-      title: "Layer of Fear: The Horror series returns",
-      description:
-        "Layers of Fear, originally titled Layers of Fears, wraps up the horror series created by Bloober Team, as it includes the previous installments as well as entirely new stories.",
-      date: "April 8, 2023",
-    },
-    {
-      image: Spiderman,
-      title: "Layer of Fear: The Horror series returns",
-      description:
-        "Layers of Fear, originally titled Layers of Fears, wraps up the horror series created by Bloober Team, as it includes the previous installments as well as entirely new stories.",
-      date: "April 8, 2023",
-    },
-    {
-      image: MinecraftL,
-      title: "Layer of Fear: The Horror series returns",
-      description:
-        "Layers of Fear, originally titled Layers of Fears, wraps up the horror series created by Bloober Team, as it includes the previous installments as well as entirely new stories.",
-      date: "April 8, 2023",
-    },
-  ];
+  const dataCardBlogs = dataBlogs;
   return (
     <>
       <div className="list-blog flex flex-wrap justify-between mt-6">
